@@ -1,9 +1,131 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Jinu Rajan</title>
-    </head>
-    <body>
-        <p>I am working on Building this. Please stay tuned</p>
-    </body>
+<html lang="en">
+<head>
+    <title>Bootstrap 4 landing page</title>
+    <!-- add bootstrap css file -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='js/bootstrap-tagsinput.js'></script>
+    <script type="text/javascript" src='js/main.js'></script>
+
+</head>
+<body>
+<!-- navbar -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-value="about" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<!-- header -->
+<header class="header">
+    <div class="overlay">
+        <div class="row">
+            <div class="col-md-4 block"></div>
+            <div class="col-md-4 block">
+                <div class="circle">
+                    <p>
+                        <img src="images/coder_girl.png" class="img-fluid">
+                        Let's get connected
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                        </svg>
+                        <button class="links"><a href="https://www.linkedin.com/in/jinupr/"><span class="iconify"
+                                                                                                  data-icon="logos:linkedin-icon"
+                                                                                                  data-inline="false"></span></a>
+                        </button>
+                        <button class="links"><a href="https://github.com/jinurajan"><span class="iconify"
+                                                                                           data-icon="logos:github-icon"
+                                                                                           data-inline="false"></span></a>
+                        </button>
+                        <button class="links"><a href="https://bitbucket.org/jinurajan/"><span class="iconify"
+                                                                                               data-icon="logos:bitbucket"
+                                                                                               data-inline="false"></span></a>
+                        </button>
+                        <button class="links"><a href="https://leetcode.com/jinurajan/"><span class="iconify black"
+                                                                                              data-icon="simple-icons:leetcode"
+                                                                                              data-inline="false"></span></a>
+                        </button>
+                        <button class="links"><a href="mailto:indiancodergirl@gmail.com"><span class="iconify" data-icon="logos:google-gmail" data-inline="false"></span></a>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- about section -->
+<div class="about" id="about">
+    <div class="container">
+        <h1 class="text-center">About Me</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/jinu.jpg" class="img-fluid">
+                <span class="text-justify">Backend Developer</span>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+                <h2>Jinu Palliyil Rajan</h2>
+                <p>
+                <h3>Hey There <span class="iconify" data-icon="emojione:waving-hand-light-skin-tone"
+                                    data-inline="false"></span> Nice to e-meet you</h3>
+                </p>
+                <p>
+                    I am Jinu from Kerala, India. I am a passionate backend engineer with 9 years of experience in
+                    various technologies and is currently working at <a
+                        href="https://www.zalando.de" class="company">Zalando SE</a>.
+                    I moved to Berlin, Germany in 2020 and is staying in berlin as an expat.
+                    I am also a graduate in Information Technology from <a href="https://www.gecskp.ac.in/"
+                                                                           class="other_links">GEC PKD.</a>
+                    This is my first attempt to create a website for myself and I hope that I did not disappoint you
+                    folks <span class="iconify" data-icon="emojione:girl-medium-skin-tone" data-inline="false"></span>.
+                    Would you like to get to know each other ? Lets get connected
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                    </svg>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+        <iframe src="images/portfolio/resume.pdf" width="100%" height="500px">
+        </iframe>
+        </div>
+        </div>
+</div>
+
+<footer class="footer">
+  <!-- Copyright -->
+  <div class="text-center p-3"> ©2021 Copyright:
+    <a class="text-dark" href="http://indiancodergirl.com/">http://indiancodergirl.com/</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
 </html>
